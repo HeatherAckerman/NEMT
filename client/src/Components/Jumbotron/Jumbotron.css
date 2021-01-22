@@ -1,0 +1,23 @@
+.jumbotron {
+    background-image: url("./cityStreetMain.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    height: 500px;
+    margin: 0 auto;
+    color: rgb(244, 244, 249, .8);
+}
+
+.jtronTitle {
+    text-align: center;
+    padding: 2%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 1200px) {
+    .jumbotron {
+        background-image: url("./cityStreet.jpg");
+        height:300px;
+    }   
+}
