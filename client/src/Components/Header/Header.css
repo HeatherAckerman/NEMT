@@ -1,0 +1,8 @@
+.navCss {
+    background-color: rgb(70, 73, 76);
+    width: 100%;
+    top: 0;
+    display: "block";
+    padding: 2%;
+    z-index: 2;
+}

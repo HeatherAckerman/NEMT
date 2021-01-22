@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Header from "./Components/Header";
-import Jumbotron from "./Components/Jumbotron"
-import Container from "./Components/Container"
-import Footer from "./Components/Footer";
+import Header from "./Components/Header/Header";
+import Jumbotron from "./Components/Jumbotron/Jumbotron";
+import Container from "./Components/Container/Container";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
