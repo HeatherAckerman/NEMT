@@ -1,9 +1,14 @@
 import React from "react";
+import './Footer.css'
 
 function Footer() {
     return (
         <>
-            <h1>Footer</h1>
+            <nav className="footerCss" style={{ position: "fixed" }}></nav>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </>
     );
 }

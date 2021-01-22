@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Jumbotron from "./Components/Jumbotron/Jumbotron";
 import Container from "./Components/Container/Container";
+import StickyFooter from 'react-sticky-footer';
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
       <Header />
       <Jumbotron />
       <Container />
-      <Footer />
+      <StickyFooter>
+        <Footer />
+      </StickyFooter>
     </>
   );
 }
