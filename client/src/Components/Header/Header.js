@@ -9,8 +9,6 @@ function Header() {
                 <nav className="navCss" style={{ position: "fixed" }}>
                 </nav>
             </StickyHeader>
-            <br/>
-            <br/>
         </>
     );
 }
