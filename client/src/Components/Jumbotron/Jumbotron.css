@@ -11,22 +11,30 @@
 }
 
 .jtronTitle {
+    font-size: 900% !important;
     text-align: center;
+    margin: 0 auto;
     padding: 2%;
-    font-size: xx-large;
     font-weight: bolder;
+    max-width: 95%;
 }
 
 @media only screen and (max-width: 1200px) {
     .jumbotron {
         background-image: url("./cityStreetBreak1.jpg");
         height:400px;
+    }
+    .jtronTitle {
+        font-size: 700% !important;
     }  
 }
 @media only screen and (max-width: 975px) {
     .jumbotron {
         background-image: url("./cityStreetBreak2.jpg");
         height:350px;
+    }
+    .jtronTitle {
+        font-size: 600% !important;
     }  
 }
 @media only screen and (max-width: 700px) {
@@ -34,13 +42,18 @@
         background-image: url("./cityStreetBreak3.jpg");
         height:300px;
         background-size: cover;
+    }
+    .jtronTitle {
+        font-size: 450% !important;
     }  
 }
 @media only screen and (max-width: 500px) {
     .jumbotron {
         background-image: url("./cityStreetBreak4.jpg");
         background-size: cover;
-        height:250px;
-        
-    }  
+        height:250px;   
+    }
+    .jtronTitle {
+        font-size: 350% !important;
+    }   
 }

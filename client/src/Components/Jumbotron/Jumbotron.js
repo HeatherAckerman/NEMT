@@ -3,10 +3,9 @@ import './Jumbotron.css';
 
 function Jumbotron() {
     return (
-            <div className="jumbotron parallax">
-                <br />
-                <h1 className="jtronTitle">Starting a NEMT Company</h1>
-            </div>
+        <div className="jumbotron parallax">
+            <h1 className="jtronTitle">Starting a Non-Emergency Medical Transportation (NEMT) Company</h1>
+        </div>
     );
 }
 
