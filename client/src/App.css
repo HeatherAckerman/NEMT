@@ -2,17 +2,19 @@
   background: rgb(0, 0, 0, .9);
   color: rgb(244, 244, 249, .8);
   text-align: center;
-  word-break: break-all;
+  hyphens: auto;
 }
 
 h1 {
   font-size: 30px;
   font-weight: bold;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 p{
   font-size: 20px;
-  max-width: 85%;
+  max-width: 90%;
   margin: 0 auto;
   text-align: justify;
 }
