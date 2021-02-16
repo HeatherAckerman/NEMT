@@ -7,9 +7,9 @@ function Home() {
         <div className="containerCss">
             <br /><br />
             <h1>What is NEMT</h1>
-            <p>Many health insurance providers want to make sure that their members can make it to their necessary medical appointments regardless of their circumstances. To make this happen they offer Non-emergency Medical Transportation (NEMT) to their members who need it. A NEMT provider is the medical taxi that provides that service. This site contains an overview of how to become a NEMT provider. </p>
+            <p>Non-Emergency Medical Transportation (NEMT) is transportation to an approved medical appointment that is paid for in part or whole by a health insurance provider. Many health insurance providers ensure their members can make it to necessary medical appointments by offering NEMT to those who need it. A NEMT provider is the medical taxi that provides that service. This site contains an overview of how to become a NEMT provider.</p>
             <br/><br/>
-            <h1>Why start a NEMT Company</h1>
+            <h1></h1>
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
