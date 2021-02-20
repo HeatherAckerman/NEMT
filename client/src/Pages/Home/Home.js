@@ -11,7 +11,7 @@ function Home() {
             <br/><br/>
 
             {/* ONLY WORKS LOCALLY LINK NEEDS TO BE UPDATED */}
-            <a href={"http://localhost:3000/BusinessStructure"}>Up Next: Choosing a Business Structure</a>
+            <a href={"http://localhost:3000/BusinessStructure"}><button className="btn">Up Next: Choosing a Business Structure</button></a>
             <h1></h1>
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
