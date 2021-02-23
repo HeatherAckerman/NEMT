@@ -20,7 +20,7 @@ p{
 }
 
 .btn {
-  width: 30%;
+  width: fit-content;
   background: rgb(244, 244, 249, .8);
   border-radius: 15px;
   font-weight: bold;
