@@ -13,10 +13,8 @@ export default function App() {
     }
 
     return (
-        <div className="all">
-            <div style={{ textAlign: "center" }}>
-                <button style={{ background: "rgb(45,49,66)", color: "white", padding: "5px 5px", border: "#fdd835", borderRadius: "4px", fontSize: "80%" }} onClick={toggleModal}><strong>Click HERE to be notified when the site updates</strong></button>
-            </div>
+        <div>
+            <button className="btn" onClick={toggleModal}><strong>Click HERE to be notified when the site updates</strong></button>
             <Modal
                 isOpen={isOpen}
                 onRequestClose={toggleModal}
@@ -24,13 +22,12 @@ export default function App() {
                 className="mymodal"
                 overlayClassName="myoverlay"
                 closeTimeoutMS={500}
-                style={{ zoom: 5 }}
             >
-                <h2>Enter Info and Click Submit</h2>
+                <h2 className="modalTitle">Enter Info and Click Submit</h2>
                 <br></br>
                 <div style={{ textAlign: "center", zoom: 2 }}>
-                    <CreateUser/><br/>
-                    <button style={{ background: "#fdd835", color: "rgb(45,49,66", padding: "5px 5px", border: "#fdd835", borderRadius: "4px", fontSize: "50%", width: "30%" }} onClick={toggleModal}><strong>Close</strong></button>
+                    <CreateUser />
+                    <button className="modalBtn" onClick={toggleModal}>Back</button><br/><br/>
                 </div>
             </Modal>
         </div>

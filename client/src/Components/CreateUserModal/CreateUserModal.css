@@ -1,13 +1,13 @@
 .mymodal {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    border: 1px solid #ccc;
-    background: #fff;
+    top: 40%;
+    left: 40%;
+    background: rgb(244, 244, 249, .9);
     overflow: auto;
     border-radius: 4px;
     outline: none;
     padding: 20px;
+    height:fit-content;
   }
   
   .myoverlay {
@@ -17,5 +17,27 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .modalTitle {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .modalInput {
+    border-radius: 15px;
+    border: none;
+    padding: 2%
+  }
+
+  .modalBtn {
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    font-size: smaller;
+    color: rgb(244, 244, 249, .8);
+    margin: 3%;
+    border: none;
   }
 
