@@ -14,7 +14,7 @@ export default function App() {
 
     return (
         <div>
-            <button className="btn" onClick={toggleModal}><strong>Click HERE to be notified when the site updates</strong></button>
+            <button className="btn" onClick={toggleModal}><strong>Click HERE to be notified of site updates</strong></button>
             <Modal
                 isOpen={isOpen}
                 onRequestClose={toggleModal}

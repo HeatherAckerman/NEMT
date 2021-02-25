@@ -6,15 +6,15 @@
 }
 
 h1 {
-  font-size: 30px;
+  font-size: xx-large;
   font-weight: bold;
   max-width: 90%;
   margin: 0 auto;
 }
 
 p{
-  font-size: 20px;
-  max-width: 90%;
+  font-size: x-large;
+  max-width: 75%;
   margin: 0 auto;
   text-align: justify;
 }
@@ -27,4 +27,45 @@ p{
   font-size: large;
   color: rgb(0, 0, 0, .9);
   margin: 1%;
+  zoom:1.5;
+}
+
+.errorImg {
+ max-width: 15%;
+ margin: 1%;
+}
+
+.errorMsg {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  p {
+    font-size: x-large;
+    max-width: 80%;
+  } 
+}
+@media only screen and (max-width: 975px) {
+  p {
+    font-size: x-large;
+    max-width: 85%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  p {
+    font-size: large;
+    max-width: 90%;
+  }   
+  .btn{
+    zoom: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: large;
+    max-width: 90%;
+  }  
+  .btn{
+    zoom: 0;
+  }
 }
