@@ -22,9 +22,7 @@ class CreateUser extends Component {
     handleSubmit(event) {
         console.log(this.state.name)
         event.preventDefault()
-
-        //request to server to add a new username/password
-        axios.post('/user/', {
+        axios.post('/createuser', {
             name: this.state.name,
             email: this.state.email
         })
@@ -32,7 +30,7 @@ class CreateUser extends Component {
                 console.log(response)
                 if (!response.data.errmsg) {
                     console.log('Data saved')
-                    alert("I'll send you an email as soon as the site is updated. Thank you!")
+                    alert("You'll receive an email as soon as the site is updated. Thank you!")
                     this.setState({ //redirect to Home Page
                         redirectTo: '/'
                     })
@@ -70,8 +68,8 @@ class CreateUser extends Component {
                             <input
                                 className="modalInput"
                                 placeholder="Email"
-                                type="Email"
-                                name="Email"
+                                name="email"
+                                type="text"
                                 value={this.state.Email}
                                 onChange={this.handleChange}
                             />
