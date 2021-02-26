@@ -17,6 +17,7 @@
     padding: 2%;
     font-weight: bolder;
     max-width: 95%;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 1200px) {

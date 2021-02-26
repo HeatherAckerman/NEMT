@@ -41,3 +41,13 @@
     border: none;
   }
 
+  .errorBtn {
+    width: fit-content;
+    background: rgb(244, 244, 249, .8);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(0, 0, 0, .9);
+    margin: 1%;
+    zoom:1.5;
+  }

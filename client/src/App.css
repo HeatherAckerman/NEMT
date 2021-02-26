@@ -10,6 +10,7 @@ h1 {
   font-weight: bold;
   max-width: 90%;
   margin: 0 auto;
+  padding: 1%;
 }
 
 p{
@@ -27,7 +28,6 @@ p{
   font-size: large;
   color: rgb(0, 0, 0, .9);
   margin: 1%;
-  zoom:1.5;
 }
 
 .errorImg {
@@ -37,6 +37,7 @@ p{
 
 .errorMsg {
   font-size: 50px;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1200px) {
