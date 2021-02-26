@@ -15,6 +15,8 @@ export default function App() {
     return (
         <div>
             <button className="errorBtn" onClick={toggleModal}><strong>Click HERE to be notified of site updates</strong></button>
+            
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             <Modal
                 isOpen={isOpen}
                 onRequestClose={toggleModal}
@@ -25,7 +27,7 @@ export default function App() {
             >
                 <h2 className="modalTitle">Enter Info and Click Submit</h2>
                 <br></br>
-                <div style={{ textAlign: "center", zoom: 2 }}>
+                <div className="createUser">
                     <CreateUser />
                     <button className="modalBtn" onClick={toggleModal}>Back</button><br/><br/>
                 </div>

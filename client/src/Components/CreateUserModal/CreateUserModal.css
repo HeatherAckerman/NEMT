@@ -1,13 +1,12 @@
 .mymodal {
-    position: fixed;
-    top: 40%;
-    left: 40%;
     background: rgb(244, 244, 249, .9);
     overflow: auto;
     border-radius: 4px;
     outline: none;
     padding: 20px;
     height:fit-content;
+    width: fit-content;
+    margin: 30% auto
   }
   
   .myoverlay {
@@ -50,4 +49,9 @@
     color: rgb(0, 0, 0, .9);
     margin: 1%;
     zoom:1.5;
+  }
+
+  .createUser {
+    zoom: 2;
+    margin: 0 auto;
   }
