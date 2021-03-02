@@ -15,7 +15,7 @@ export default function App() {
 
     return (
         <div>
-            <button className="menuBtn" onClick={toggleModal}><img src={menu}/></button>
+            <button className="menuBtn" onClick={toggleModal}><img src={menu} /></button>
             <Modal
                 isOpen={isOpen}
                 onRequestClose={toggleModal}
@@ -24,12 +24,13 @@ export default function App() {
                 overlayClassName="navOverlay"
                 closeTimeoutMS={500}
             >
-                <h2 className="navModalTitle">Enter Info and Click Submit</h2>
+                <h2 className="navModalTitle">Table of Contents</h2>
                 <br></br>
                 <div className="TOC">
-                    <TableOfContents />
-                    <button className="navModalBtn" onClick={toggleModal}>Back</button><br/><br/>
+                    <TableOfContents /><br />
                 </div>
+                <button className="navModalBtn" onClick={toggleModal}>Back</button><br /><br />
+
             </Modal>
         </div>
     );

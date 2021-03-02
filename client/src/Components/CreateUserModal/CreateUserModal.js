@@ -15,8 +15,6 @@ export default function App() {
     return (
         <div>
             <button className="errorBtn" onClick={toggleModal}><strong>Click HERE to be notified of site updates</strong></button>
-            
-            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             <Modal
                 isOpen={isOpen}
                 onRequestClose={toggleModal}

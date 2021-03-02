@@ -6,7 +6,7 @@
     padding: 20px;
     height:fit-content;
     width: fit-content;
-    margin: 30% auto
+    margin: 15% auto
   }
   
   .navOverlay {
@@ -30,15 +30,6 @@
     padding: 2%
   }
 
-  .navModalBtn {
-    width: fit-content;
-    background: rgba(0, 0, 0, 0.9);
-    border-radius: 15px;
-    font-size: smaller;
-    color: rgb(244, 244, 249, .8);
-    border: none;
-  }
-
   .menuBtn {
     float: right;
     width: fit-content;
@@ -51,5 +42,16 @@
 
   .TOC {
     zoom: 2;
-    margin: 0 auto;
+    text-align: left;
+  }
+
+  .navModalBtn {
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    font-size: smaller;
+    color: rgb(244, 244, 249, .8);
+    border: none; 
+    text-align: center;
+    zoom: 2;
   }

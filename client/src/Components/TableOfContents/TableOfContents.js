@@ -3,7 +3,8 @@ import React from "react";
 function Header() {
     return (
         <>
-            <h1>TableOfContents</h1>
+            <a href={"http://localhost:3000/"}>Home</a><br/>
+            <a href={"http://localhost:3000/BusinessStructure"}>Choosing a Business Structure</a><br/>
         </>
     );
 }

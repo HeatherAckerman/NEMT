@@ -20,7 +20,7 @@
     text-decoration: none;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .jumbotron {
         background-image: url("./cityStreetBreak1.jpg");
         height:400px;
@@ -35,7 +35,7 @@
         height:350px;
     }
     .jtronTitle {
-        font-size: 600% !important;
+        font-size: 550% !important;
     }  
 }
 @media only screen and (max-width: 700px) {
@@ -55,6 +55,6 @@
         height:250px;   
     }
     .jtronTitle {
-        font-size: 355% !important;
+        font-size: 325% !important;
     }   
 }
